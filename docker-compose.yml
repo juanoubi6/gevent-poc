@@ -1,0 +1,8 @@
+version: '3'
+services:
+  testapi:
+    image: kennethreitz/httpbin
+    ports:
+      - "80:80"
+
+
